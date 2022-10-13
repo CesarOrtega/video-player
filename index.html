@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mipage</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="player">
+            <video id="video" poster="./images/n8hfycbbi5h5vzfxsjwx.jpg" src="/videos/video1.mp4" width="200px"></video>
+            <div class="player-overlay">
+                <div class="player-actions">
+                    <h2 class="player-title">Música para programar</h2>
+                    <button class="button" id="play" aria-label="reproducir" title="reproducir"></button>
+                    <button class="button" hidden id="pause" aria-label="pausar" title="pausar"></button>
+                    <button class="button" id="backward" aria-label="atrasar 10 seg" title="atrasar 10 seg"></button>
+                    <button class="button" id="forward" aria-label="adelantar 10 seg" title="adelantar 10 seg"></button>
+                    <button class="button" id="mute" aria-label="silenciar" title="silenciar"></button>
+                    <button class="button" id="unmute" aria-label="activar sonido" title="activar sonido"></button>
+                </div>
+                <div class="player-progress">
+                <input id="progress" type="range" min="0" value="0" step="1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

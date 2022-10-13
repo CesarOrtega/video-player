@@ -1,0 +1,40 @@
+.button{
+    inline-size: 32px;
+    block-size: 32px;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.button:active{
+    transform: scale(.9);
+}
+
+#play{
+    background-image: url(../images/play.png);
+    background-size: contain;
+}
+#pause{
+    background-image: url(../images/pause.png);
+    background-size: contain;
+}
+#backward{
+    background-image: url(../images/-10.png);
+    background-size: contain;
+}
+#forward{
+    background-image: url(../images/+10.png);
+    background-size: contain;
+}
+
+#unmute{
+    background-image: url(../images/unmute.png);
+    background-size: contain;
+}
+
+#mute{
+    background-image: url(../images/mute.png);
+    background-size: contain;
+}
